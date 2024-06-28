@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/yudhapratamaputra/Downloads/Development/FrameworkBuild/Profile/iphoneos/Profile-iphoneos/flutter_config/flutter_config.framework/flutter_config'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x577C0, size: 0x8, addend: 0x0, symName: _flutter_configVersionString, symObjAddr: 0x0, symBinAddr: 0x4320, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x577F5, size: 0x8, addend: 0x0, symName: _flutter_configVersionNumber, symObjAddr: 0x30, symBinAddr: 0x4350, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x57832, size: 0x8, addend: 0x0, symName: '+[FlutterConfigPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA0 }
+  - { offsetInCU: 0x54, offset: 0x5785F, size: 0x8, addend: 0x0, symName: '+[FlutterConfigPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA0 }
+  - { offsetInCU: 0xB3, offset: 0x578BE, size: 0x8, addend: 0x0, symName: '+[FlutterConfigPlugin env]', symObjAddr: 0xA0, symBinAddr: 0x40A0, symSize: 0xC }
+  - { offsetInCU: 0xE6, offset: 0x578F1, size: 0x8, addend: 0x0, symName: '+[FlutterConfigPlugin envFor:]', symObjAddr: 0xAC, symBinAddr: 0x40AC, symSize: 0x6C }
+  - { offsetInCU: 0x13D, offset: 0x57948, size: 0x8, addend: 0x0, symName: '-[FlutterConfigPlugin constantsToExport]', symObjAddr: 0x118, symBinAddr: 0x4118, symSize: 0xC }
+  - { offsetInCU: 0x170, offset: 0x5797B, size: 0x8, addend: 0x0, symName: '-[FlutterConfigPlugin handleMethodCall:result:]', symObjAddr: 0x124, symBinAddr: 0x4124, symSize: 0x90 }
+...

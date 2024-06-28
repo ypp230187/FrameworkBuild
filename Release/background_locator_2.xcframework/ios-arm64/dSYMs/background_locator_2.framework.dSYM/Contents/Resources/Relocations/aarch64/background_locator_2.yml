@@ -1,0 +1,103 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/yudhapratamaputra/Downloads/Development/FrameworkBuild/Release/iphoneos/Release-iphoneos/background_locator_2/background_locator_2.framework/background_locator_2'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x4D54, size: 0x8, addend: 0x0, symName: _background_locator_2VersionString, symObjAddr: 0x0, symBinAddr: 0x6910, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x4D88, size: 0x8, addend: 0x0, symName: _background_locator_2VersionNumber, symObjAddr: 0x38, symBinAddr: 0x6948, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x4DC4, size: 0x8, addend: 0x0, symName: '+[BackgroundLocatorPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
+  - { offsetInCU: 0x40, offset: 0x4DDD, size: 0x8, addend: 0x0, symName: _instance, symObjAddr: 0x8270, symBinAddr: 0x119C8, symSize: 0x0 }
+  - { offsetInCU: 0xC5, offset: 0x4E62, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin startLocatorService:]', symObjAddr: 0x7D8, symBinAddr: 0x47D8, symSize: 0x104 }
+  - { offsetInCU: 0xEA, offset: 0x4E87, size: 0x8, addend: 0x0, symName: '_startLocatorService:.onceToken', symObjAddr: 0x8280, symBinAddr: 0x119D8, symSize: 0x0 }
+  - { offsetInCU: 0x21B, offset: 0x4FB8, size: 0x8, addend: 0x0, symName: _registerPlugins, symObjAddr: 0x8278, symBinAddr: 0x119D0, symSize: 0x0 }
+  - { offsetInCU: 0x2AC, offset: 0x5049, size: 0x8, addend: 0x0, symName: '+[BackgroundLocatorPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
+  - { offsetInCU: 0x2EB, offset: 0x5088, size: 0x8, addend: 0x0, symName: '+[BackgroundLocatorPlugin setPluginRegistrantCallback:]', symObjAddr: 0xA4, symBinAddr: 0x40A4, symSize: 0xC }
+  - { offsetInCU: 0x324, offset: 0x50C1, size: 0x8, addend: 0x0, symName: '+[BackgroundLocatorPlugin getInstance]', symObjAddr: 0xB0, symBinAddr: 0x40B0, symSize: 0xC }
+  - { offsetInCU: 0x354, offset: 0x50F1, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin invokeMethod:arguments:]', symObjAddr: 0xBC, symBinAddr: 0x40BC, symSize: 0x84 }
+  - { offsetInCU: 0x3B1, offset: 0x514E, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin handleMethodCall:result:]', symObjAddr: 0x140, symBinAddr: 0x4140, symSize: 0x78 }
+  - { offsetInCU: 0x40E, offset: 0x51AB, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin application:didFinishLaunchingWithOptions:]', symObjAddr: 0x1B8, symBinAddr: 0x41B8, symSize: 0xA4 }
+  - { offsetInCU: 0x45C, offset: 0x51F9, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin applicationDidEnterBackground:]', symObjAddr: 0x25C, symBinAddr: 0x425C, symSize: 0x3C }
+  - { offsetInCU: 0x497, offset: 0x5234, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin applicationWillTerminate:]', symObjAddr: 0x298, symBinAddr: 0x4298, symSize: 0x44 }
+  - { offsetInCU: 0x4D2, offset: 0x526F, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin observeRegionForLocation:]', symObjAddr: 0x2DC, symBinAddr: 0x42DC, symSize: 0xC0 }
+  - { offsetInCU: 0x52F, offset: 0x52CC, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin prepareLocationMap:]', symObjAddr: 0x39C, symBinAddr: 0x439C, symSize: 0x74 }
+  - { offsetInCU: 0x57D, offset: 0x531A, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin locationManager:didUpdateLocations:]', symObjAddr: 0x410, symBinAddr: 0x4410, symSize: 0x8C }
+  - { offsetInCU: 0x5E4, offset: 0x5381, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin locationManager:didExitRegion:]', symObjAddr: 0x49C, symBinAddr: 0x449C, symSize: 0x2C }
+  - { offsetInCU: 0x62E, offset: 0x53CB, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin sendLocationEvent:]', symObjAddr: 0x4C8, symBinAddr: 0x44C8, symSize: 0x148 }
+  - { offsetInCU: 0x68B, offset: 0x5428, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin init:]', symObjAddr: 0x610, symBinAddr: 0x4610, symSize: 0x17C }
+  - { offsetInCU: 0x6CE, offset: 0x546B, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin prepareLocationManager]', symObjAddr: 0x78C, symBinAddr: 0x478C, symSize: 0x4C }
+  - { offsetInCU: 0x7A3, offset: 0x5540, size: 0x8, addend: 0x0, symName: '___47-[BackgroundLocatorPlugin startLocatorService:]_block_invoke', symObjAddr: 0x8DC, symBinAddr: 0x48DC, symSize: 0x14 }
+  - { offsetInCU: 0x7EA, offset: 0x5587, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x8F0, symBinAddr: 0x48F0, symSize: 0x8 }
+  - { offsetInCU: 0x80E, offset: 0x55AB, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x8F8, symBinAddr: 0x48F8, symSize: 0x8 }
+  - { offsetInCU: 0x82B, offset: 0x55C8, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin registerLocator:initCallback:initialDataDictionary:disposeCallback:settings:]', symObjAddr: 0x900, symBinAddr: 0x4900, symSize: 0x214 }
+  - { offsetInCU: 0x907, offset: 0x56A4, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin removeLocator]', symObjAddr: 0xB14, symBinAddr: 0x4B14, symSize: 0x180 }
+  - { offsetInCU: 0x95B, offset: 0x56F8, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin setServiceRunning:]', symObjAddr: 0xC94, symBinAddr: 0x4C94, symSize: 0x58 }
+  - { offsetInCU: 0x99A, offset: 0x5737, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin isServiceRunning]', symObjAddr: 0xCEC, symBinAddr: 0x4CEC, symSize: 0xC }
+  - { offsetInCU: 0x9CA, offset: 0x5767, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin isStopWithTerminate]', symObjAddr: 0xCF8, symBinAddr: 0x4CF8, symSize: 0xC }
+  - { offsetInCU: 0x9FB, offset: 0x5798, size: 0x8, addend: 0x0, symName: '-[BackgroundLocatorPlugin .cxx_destruct]', symObjAddr: 0xD04, symBinAddr: 0x4D04, symSize: 0x60 }
+  - { offsetInCU: 0x27, offset: 0x595C, size: 0x8, addend: 0x0, symName: '-[DisposePluggable onServiceDispose]', symObjAddr: 0x0, symBinAddr: 0x4D64, symSize: 0x100 }
+  - { offsetInCU: 0xA5, offset: 0x59DA, size: 0x8, addend: 0x0, symName: '-[DisposePluggable onServiceDispose]', symObjAddr: 0x0, symBinAddr: 0x4D64, symSize: 0x100 }
+  - { offsetInCU: 0xE0, offset: 0x5A15, size: 0x8, addend: 0x0, symName: '-[DisposePluggable onServiceStart:]', symObjAddr: 0x100, symBinAddr: 0x4E64, symSize: 0x4 }
+  - { offsetInCU: 0x117, offset: 0x5A4C, size: 0x8, addend: 0x0, symName: '-[DisposePluggable setCallback:]', symObjAddr: 0x104, symBinAddr: 0x4E68, symSize: 0x18 }
+  - { offsetInCU: 0x34, offset: 0x5AE2, size: 0x8, addend: 0x0, symName: _kCallbackDispatcherKey, symObjAddr: 0x848, symBinAddr: 0xC0E8, symSize: 0x0 }
+  - { offsetInCU: 0x53, offset: 0x5B01, size: 0x8, addend: 0x0, symName: _kCallbackKey, symObjAddr: 0x850, symBinAddr: 0xC0F0, symSize: 0x0 }
+  - { offsetInCU: 0x68, offset: 0x5B16, size: 0x8, addend: 0x0, symName: _kInitCallbackKey, symObjAddr: 0x858, symBinAddr: 0xC0F8, symSize: 0x0 }
+  - { offsetInCU: 0x7D, offset: 0x5B2B, size: 0x8, addend: 0x0, symName: _kInitDataCallbackKey, symObjAddr: 0x860, symBinAddr: 0xC100, symSize: 0x0 }
+  - { offsetInCU: 0x92, offset: 0x5B40, size: 0x8, addend: 0x0, symName: _kDisposeCallbackKey, symObjAddr: 0x868, symBinAddr: 0xC108, symSize: 0x0 }
+  - { offsetInCU: 0xA7, offset: 0x5B55, size: 0x8, addend: 0x0, symName: _kDistanceFilterKey, symObjAddr: 0x870, symBinAddr: 0xC110, symSize: 0x0 }
+  - { offsetInCU: 0xBC, offset: 0x5B6A, size: 0x8, addend: 0x0, symName: _kChannelId, symObjAddr: 0x878, symBinAddr: 0xC118, symSize: 0x0 }
+  - { offsetInCU: 0xD1, offset: 0x5B7F, size: 0x8, addend: 0x0, symName: _kBackgroundChannelId, symObjAddr: 0x880, symBinAddr: 0xC120, symSize: 0x0 }
+  - { offsetInCU: 0xE6, offset: 0x5B94, size: 0x8, addend: 0x0, symName: _kMethodServiceInitialized, symObjAddr: 0x888, symBinAddr: 0xC128, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0x5BA9, size: 0x8, addend: 0x0, symName: _kMethodPluginInitializeService, symObjAddr: 0x890, symBinAddr: 0xC130, symSize: 0x0 }
+  - { offsetInCU: 0x110, offset: 0x5BBE, size: 0x8, addend: 0x0, symName: _kMethodPluginRegisterLocationUpdate, symObjAddr: 0x898, symBinAddr: 0xC138, symSize: 0x0 }
+  - { offsetInCU: 0x125, offset: 0x5BD3, size: 0x8, addend: 0x0, symName: _kMethodPluginUnRegisterLocationUpdate, symObjAddr: 0x8A0, symBinAddr: 0xC140, symSize: 0x0 }
+  - { offsetInCU: 0x13A, offset: 0x5BE8, size: 0x8, addend: 0x0, symName: _kMethodPluginIsRegisteredLocationUpdate, symObjAddr: 0x8A8, symBinAddr: 0xC148, symSize: 0x0 }
+  - { offsetInCU: 0x14F, offset: 0x5BFD, size: 0x8, addend: 0x0, symName: _kMethodPluginIsServiceRunning, symObjAddr: 0x8B0, symBinAddr: 0xC150, symSize: 0x0 }
+  - { offsetInCU: 0x164, offset: 0x5C12, size: 0x8, addend: 0x0, symName: _kMethodPluginUpdateNotification, symObjAddr: 0x8B8, symBinAddr: 0xC158, symSize: 0x0 }
+  - { offsetInCU: 0x179, offset: 0x5C27, size: 0x8, addend: 0x0, symName: _kArgLatitude, symObjAddr: 0x8C0, symBinAddr: 0xC160, symSize: 0x0 }
+  - { offsetInCU: 0x18E, offset: 0x5C3C, size: 0x8, addend: 0x0, symName: _kArgLongitude, symObjAddr: 0x8C8, symBinAddr: 0xC168, symSize: 0x0 }
+  - { offsetInCU: 0x1A3, offset: 0x5C51, size: 0x8, addend: 0x0, symName: _kArgAccuracy, symObjAddr: 0x8D0, symBinAddr: 0xC170, symSize: 0x0 }
+  - { offsetInCU: 0x1B8, offset: 0x5C66, size: 0x8, addend: 0x0, symName: _kArgAltitude, symObjAddr: 0x8D8, symBinAddr: 0xC178, symSize: 0x0 }
+  - { offsetInCU: 0x1CD, offset: 0x5C7B, size: 0x8, addend: 0x0, symName: _kArgSpeed, symObjAddr: 0x8E0, symBinAddr: 0xC180, symSize: 0x0 }
+  - { offsetInCU: 0x1E2, offset: 0x5C90, size: 0x8, addend: 0x0, symName: _kArgSpeedAccuracy, symObjAddr: 0x8E8, symBinAddr: 0xC188, symSize: 0x0 }
+  - { offsetInCU: 0x1F7, offset: 0x5CA5, size: 0x8, addend: 0x0, symName: _kArgHeading, symObjAddr: 0x8F0, symBinAddr: 0xC190, symSize: 0x0 }
+  - { offsetInCU: 0x20C, offset: 0x5CBA, size: 0x8, addend: 0x0, symName: _kArgTime, symObjAddr: 0x8F8, symBinAddr: 0xC198, symSize: 0x0 }
+  - { offsetInCU: 0x221, offset: 0x5CCF, size: 0x8, addend: 0x0, symName: _kArgCallback, symObjAddr: 0x900, symBinAddr: 0xC1A0, symSize: 0x0 }
+  - { offsetInCU: 0x236, offset: 0x5CE4, size: 0x8, addend: 0x0, symName: _kArgInitCallback, symObjAddr: 0x908, symBinAddr: 0xC1A8, symSize: 0x0 }
+  - { offsetInCU: 0x24B, offset: 0x5CF9, size: 0x8, addend: 0x0, symName: _kArgInitDataCallback, symObjAddr: 0x910, symBinAddr: 0xC1B0, symSize: 0x0 }
+  - { offsetInCU: 0x260, offset: 0x5D0E, size: 0x8, addend: 0x0, symName: _kArgDisposeCallback, symObjAddr: 0x918, symBinAddr: 0xC1B8, symSize: 0x0 }
+  - { offsetInCU: 0x275, offset: 0x5D23, size: 0x8, addend: 0x0, symName: _kArgLocation, symObjAddr: 0x920, symBinAddr: 0xC1C0, symSize: 0x0 }
+  - { offsetInCU: 0x28A, offset: 0x5D38, size: 0x8, addend: 0x0, symName: _kArgSettings, symObjAddr: 0x928, symBinAddr: 0xC1C8, symSize: 0x0 }
+  - { offsetInCU: 0x29F, offset: 0x5D4D, size: 0x8, addend: 0x0, symName: _kArgCallbackDispatcher, symObjAddr: 0x930, symBinAddr: 0xC1D0, symSize: 0x0 }
+  - { offsetInCU: 0x2B4, offset: 0x5D62, size: 0x8, addend: 0x0, symName: _kSettingsAccuracy, symObjAddr: 0x938, symBinAddr: 0xC1D8, symSize: 0x0 }
+  - { offsetInCU: 0x2C9, offset: 0x5D77, size: 0x8, addend: 0x0, symName: _kSettingsDistanceFilter, symObjAddr: 0x940, symBinAddr: 0xC1E0, symSize: 0x0 }
+  - { offsetInCU: 0x2DE, offset: 0x5D8C, size: 0x8, addend: 0x0, symName: _kSettingsShowsBackgroundLocationIndicator, symObjAddr: 0x948, symBinAddr: 0xC1E8, symSize: 0x0 }
+  - { offsetInCU: 0x2F3, offset: 0x5DA1, size: 0x8, addend: 0x0, symName: _kSettingsStopWithTerminate, symObjAddr: 0x950, symBinAddr: 0xC1F0, symSize: 0x0 }
+  - { offsetInCU: 0x308, offset: 0x5DB6, size: 0x8, addend: 0x0, symName: _kBCMSendLocation, symObjAddr: 0x958, symBinAddr: 0xC1F8, symSize: 0x0 }
+  - { offsetInCU: 0x31D, offset: 0x5DCB, size: 0x8, addend: 0x0, symName: _kBCMInit, symObjAddr: 0x960, symBinAddr: 0xC200, symSize: 0x0 }
+  - { offsetInCU: 0x332, offset: 0x5DE0, size: 0x8, addend: 0x0, symName: _kBCMDispose, symObjAddr: 0x968, symBinAddr: 0xC208, symSize: 0x0 }
+  - { offsetInCU: 0x347, offset: 0x5DF5, size: 0x8, addend: 0x0, symName: _kPrefObservingRegion, symObjAddr: 0x970, symBinAddr: 0xC210, symSize: 0x0 }
+  - { offsetInCU: 0x35C, offset: 0x5E0A, size: 0x8, addend: 0x0, symName: _kPrefServiceRunning, symObjAddr: 0x978, symBinAddr: 0xC218, symSize: 0x0 }
+  - { offsetInCU: 0x371, offset: 0x5E1F, size: 0x8, addend: 0x0, symName: _kPrefStopWithTerminate, symObjAddr: 0x980, symBinAddr: 0xC220, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x5E5D, size: 0x8, addend: 0x0, symName: '-[InitPluggable init]', symObjAddr: 0x0, symBinAddr: 0x4E80, symSize: 0x3C }
+  - { offsetInCU: 0x90, offset: 0x5EC6, size: 0x8, addend: 0x0, symName: '-[InitPluggable init]', symObjAddr: 0x0, symBinAddr: 0x4E80, symSize: 0x3C }
+  - { offsetInCU: 0xC4, offset: 0x5EFA, size: 0x8, addend: 0x0, symName: '-[InitPluggable onServiceDispose]', symObjAddr: 0x3C, symBinAddr: 0x4EBC, symSize: 0x8 }
+  - { offsetInCU: 0xF2, offset: 0x5F28, size: 0x8, addend: 0x0, symName: '-[InitPluggable onServiceStart:]', symObjAddr: 0x44, symBinAddr: 0x4EC4, symSize: 0x154 }
+  - { offsetInCU: 0x14E, offset: 0x5F84, size: 0x8, addend: 0x0, symName: '-[InitPluggable setCallback:]', symObjAddr: 0x198, symBinAddr: 0x5018, symSize: 0x18 }
+  - { offsetInCU: 0x27, offset: 0x600D, size: 0x8, addend: 0x0, symName: '-[MethodCallHelper handleMethodCall:result:delegate:]', symObjAddr: 0x0, symBinAddr: 0x5030, symSize: 0x3F0 }
+  - { offsetInCU: 0x60, offset: 0x6046, size: 0x8, addend: 0x0, symName: '-[MethodCallHelper handleMethodCall:result:delegate:]', symObjAddr: 0x0, symBinAddr: 0x5030, symSize: 0x3F0 }
+  - { offsetInCU: 0x27, offset: 0x61B7, size: 0x8, addend: 0x0, symName: '+[PreferencesManager getCallbackDispatcherHandle]', symObjAddr: 0x0, symBinAddr: 0x5420, symSize: 0x78 }
+  - { offsetInCU: 0x49, offset: 0x61D9, size: 0x8, addend: 0x0, symName: '+[PreferencesManager getCallbackDispatcherHandle]', symObjAddr: 0x0, symBinAddr: 0x5420, symSize: 0x78 }
+  - { offsetInCU: 0x88, offset: 0x6218, size: 0x8, addend: 0x0, symName: '+[PreferencesManager setCallbackDispatcherHandle:]', symObjAddr: 0x78, symBinAddr: 0x5498, symSize: 0x74 }
+  - { offsetInCU: 0xC3, offset: 0x6253, size: 0x8, addend: 0x0, symName: '+[PreferencesManager getCallbackHandle:]', symObjAddr: 0xEC, symBinAddr: 0x550C, symSize: 0x90 }
+  - { offsetInCU: 0x111, offset: 0x62A1, size: 0x8, addend: 0x0, symName: '+[PreferencesManager setCallbackHandle:key:]', symObjAddr: 0x17C, symBinAddr: 0x559C, symSize: 0x8C }
+  - { offsetInCU: 0x15B, offset: 0x62EB, size: 0x8, addend: 0x0, symName: '+[PreferencesManager saveDistanceFilter:]', symObjAddr: 0x208, symBinAddr: 0x5628, symSize: 0x54 }
+  - { offsetInCU: 0x196, offset: 0x6326, size: 0x8, addend: 0x0, symName: '+[PreferencesManager getDistanceFilter]', symObjAddr: 0x25C, symBinAddr: 0x567C, symSize: 0x58 }
+  - { offsetInCU: 0x1C6, offset: 0x6356, size: 0x8, addend: 0x0, symName: '+[PreferencesManager setObservingRegion:]', symObjAddr: 0x2B4, symBinAddr: 0x56D4, symSize: 0x4C }
+  - { offsetInCU: 0x201, offset: 0x6391, size: 0x8, addend: 0x0, symName: '+[PreferencesManager isObservingRegion]', symObjAddr: 0x300, symBinAddr: 0x5720, symSize: 0x50 }
+  - { offsetInCU: 0x231, offset: 0x63C1, size: 0x8, addend: 0x0, symName: '+[PreferencesManager setServiceRunning:]', symObjAddr: 0x350, symBinAddr: 0x5770, symSize: 0x4C }
+  - { offsetInCU: 0x26C, offset: 0x63FC, size: 0x8, addend: 0x0, symName: '+[PreferencesManager isServiceRunning]', symObjAddr: 0x39C, symBinAddr: 0x57BC, symSize: 0x50 }
+  - { offsetInCU: 0x29C, offset: 0x642C, size: 0x8, addend: 0x0, symName: '+[PreferencesManager setStopWithTerminate:]', symObjAddr: 0x3EC, symBinAddr: 0x580C, symSize: 0x4C }
+  - { offsetInCU: 0x2D7, offset: 0x6467, size: 0x8, addend: 0x0, symName: '+[PreferencesManager isStopWithTerminate]', symObjAddr: 0x438, symBinAddr: 0x5858, symSize: 0x50 }
+  - { offsetInCU: 0x27, offset: 0x6522, size: 0x8, addend: 0x0, symName: '+[Util getAccuracy:]', symObjAddr: 0x0, symBinAddr: 0x58A8, symSize: 0x28 }
+  - { offsetInCU: 0x7A, offset: 0x6575, size: 0x8, addend: 0x0, symName: '+[Util getAccuracy:]', symObjAddr: 0x0, symBinAddr: 0x58A8, symSize: 0x28 }
+  - { offsetInCU: 0xB7, offset: 0x65B2, size: 0x8, addend: 0x0, symName: '+[Util getLocationMap:]', symObjAddr: 0x28, symBinAddr: 0x58D0, symSize: 0x290 }
+...

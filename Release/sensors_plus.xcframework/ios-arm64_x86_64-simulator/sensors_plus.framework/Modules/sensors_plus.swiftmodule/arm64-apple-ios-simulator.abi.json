@@ -1,0 +1,1949 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "sensors_plus",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "_eventChannels",
+        "printedName": "_eventChannels",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Flutter.FlutterEventChannel]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterEventChannel",
+                "printedName": "Flutter.FlutterEventChannel",
+                "usr": "c:objc(cs)FlutterEventChannel"
+              }
+            ],
+            "usr": "s:SD"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12sensors_plus14_eventChannelsSDySSSo19FlutterEventChannelCGvp",
+        "mangledName": "$s12sensors_plus14_eventChannelsSDySSSo19FlutterEventChannelCGvp",
+        "moduleName": "sensors_plus",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "_streamHandlers",
+        "printedName": "_streamHandlers",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : any sensors_plus.MotionStreamHandler]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MotionStreamHandler",
+                "printedName": "any sensors_plus.MotionStreamHandler",
+                "usr": "s:12sensors_plus19MotionStreamHandlerP"
+              }
+            ],
+            "usr": "s:SD"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12sensors_plus15_streamHandlersSDySSAA19MotionStreamHandler_pGvp",
+        "mangledName": "$s12sensors_plus15_streamHandlersSDySSAA19MotionStreamHandler_pGvp",
+        "moduleName": "sensors_plus",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "_isCleanUp",
+        "printedName": "_isCleanUp",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12sensors_plus10_isCleanUpSbvp",
+        "mangledName": "$s12sensors_plus10_isCleanUpSbvp",
+        "moduleName": "sensors_plus",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "hasStorage": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FPPSensorsPlusPlugin",
+        "printedName": "FPPSensorsPlusPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPSensorsPlusPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s12sensors_plus20FPPSensorsPlusPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+            "moduleName": "sensors_plus",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "detachFromEngineForRegistrar",
+            "printedName": "detachFromEngineForRegistrar(registrar:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "ObjectiveC.NSObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12sensors_plus20FPPSensorsPlusPluginC28detachFromEngineForRegistrar9registrarySo8NSObjectCSg_tF",
+            "mangledName": "$s12sensors_plus20FPPSensorsPlusPluginC28detachFromEngineForRegistrar9registrarySo8NSObjectCSg_tF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "_cleanUp",
+            "printedName": "_cleanUp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12sensors_plus20FPPSensorsPlusPluginC8_cleanUpyyFZ",
+            "mangledName": "$s12sensors_plus20FPPSensorsPlusPluginC8_cleanUpyyFZ",
+            "moduleName": "sensors_plus",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FPPSensorsPlusPlugin",
+                "printedName": "sensors_plus.FPPSensorsPlusPlugin",
+                "usr": "c:@M@sensors_plus@objc(cs)FPPSensorsPlusPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPSensorsPlusPlugin(im)init",
+            "mangledName": "$s12sensors_plus20FPPSensorsPlusPluginCACycfc",
+            "moduleName": "sensors_plus",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@sensors_plus@objc(cs)FPPSensorsPlusPlugin",
+        "mangledName": "$s12sensors_plus20FPPSensorsPlusPluginC",
+        "moduleName": "sensors_plus",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "sensors_plus",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "sensors_plus"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "sensors_plus"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "sensors_plus"
+      },
+      {
+        "kind": "Var",
+        "name": "GRAVITY",
+        "printedName": "GRAVITY",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12sensors_plus7GRAVITYSdvp",
+        "mangledName": "$s12sensors_plus7GRAVITYSdvp",
+        "moduleName": "sensors_plus",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "_motionManager",
+        "printedName": "_motionManager",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "ImplicitlyUnwrappedOptional",
+            "printedName": "CoreMotion.CMMotionManager?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CMMotionManager",
+                "printedName": "CoreMotion.CMMotionManager",
+                "usr": "c:objc(cs)CMMotionManager"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12sensors_plus14_motionManagerSo08CMMotionD0CSgvp",
+        "mangledName": "$s12sensors_plus14_motionManagerSo08CMMotionD0CSgvp",
+        "moduleName": "sensors_plus",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "hasStorage": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MotionStreamHandler",
+        "printedName": "MotionStreamHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "samplingPeriod",
+            "printedName": "samplingPeriod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12sensors_plus19MotionStreamHandlerP14samplingPeriodSivp",
+            "mangledName": "$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivp",
+            "moduleName": "sensors_plus",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus19MotionStreamHandlerP14samplingPeriodSivg",
+                "mangledName": "$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivg",
+                "moduleName": "sensors_plus",
+                "genericSig": "<τ_0_0 where τ_0_0 : sensors_plus.MotionStreamHandler>",
+                "sugared_genericSig": "<Self where Self : sensors_plus.MotionStreamHandler>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus19MotionStreamHandlerP14samplingPeriodSivs",
+                "mangledName": "$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivs",
+                "moduleName": "sensors_plus",
+                "genericSig": "<τ_0_0 where τ_0_0 : sensors_plus.MotionStreamHandler>",
+                "sugared_genericSig": "<Self where Self : sensors_plus.MotionStreamHandler>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus19MotionStreamHandlerP14samplingPeriodSivM",
+                "mangledName": "$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivM",
+                "moduleName": "sensors_plus",
+                "genericSig": "<τ_0_0 where τ_0_0 : sensors_plus.MotionStreamHandler>",
+                "sugared_genericSig": "<Self where Self : sensors_plus.MotionStreamHandler>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12sensors_plus19MotionStreamHandlerP",
+        "mangledName": "$s12sensors_plus19MotionStreamHandlerP",
+        "moduleName": "sensors_plus",
+        "genericSig": "<τ_0_0 : Flutter.FlutterStreamHandler>",
+        "sugared_genericSig": "<Self : Flutter.FlutterStreamHandler>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "_initMotionManager",
+        "printedName": "_initMotionManager()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12sensors_plus18_initMotionManageryyF",
+        "mangledName": "$s12sensors_plus18_initMotionManageryyF",
+        "moduleName": "sensors_plus",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "sendTriplet",
+        "printedName": "sendTriplet(x:y:z:sink:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Any?) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12sensors_plus11sendTriplet1x1y1z4sinkySd_S2dyypSgctF",
+        "mangledName": "$s12sensors_plus11sendTriplet1x1y1z4sinkySd_S2dyypSgctF",
+        "moduleName": "sensors_plus",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FPPAccelerometerStreamHandlerPlus",
+        "printedName": "FPPAccelerometerStreamHandlerPlus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "samplingPeriod",
+            "printedName": "samplingPeriod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12sensors_plus33FPPAccelerometerStreamHandlerPlusC14samplingPeriodSivp",
+            "mangledName": "$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC14samplingPeriodSivp",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus33FPPAccelerometerStreamHandlerPlusC14samplingPeriodSivg",
+                "mangledName": "$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC14samplingPeriodSivg",
+                "moduleName": "sensors_plus",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus33FPPAccelerometerStreamHandlerPlusC14samplingPeriodSivs",
+                "mangledName": "$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC14samplingPeriodSivs",
+                "moduleName": "sensors_plus",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus33FPPAccelerometerStreamHandlerPlusC14samplingPeriodSivM",
+                "mangledName": "$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC14samplingPeriodSivM",
+                "moduleName": "sensors_plus",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onListen",
+            "printedName": "onListen(withArguments:eventSink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPAccelerometerStreamHandlerPlus(im)onListenWithArguments:eventSink:",
+            "mangledName": "$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "objc_name": "onListenWithArguments:eventSink:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancel",
+            "printedName": "onCancel(withArguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPAccelerometerStreamHandlerPlus(im)onCancelWithArguments:",
+            "mangledName": "$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "objc_name": "onCancelWithArguments:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dealloc",
+            "printedName": "dealloc()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12sensors_plus33FPPAccelerometerStreamHandlerPlusC7deallocyyF",
+            "mangledName": "$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC7deallocyyF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FPPAccelerometerStreamHandlerPlus",
+                "printedName": "sensors_plus.FPPAccelerometerStreamHandlerPlus",
+                "usr": "c:@M@sensors_plus@objc(cs)FPPAccelerometerStreamHandlerPlus"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPAccelerometerStreamHandlerPlus(im)init",
+            "mangledName": "$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCACycfc",
+            "moduleName": "sensors_plus",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@sensors_plus@objc(cs)FPPAccelerometerStreamHandlerPlus",
+        "mangledName": "$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC",
+        "moduleName": "sensors_plus",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MotionStreamHandler",
+            "printedName": "MotionStreamHandler",
+            "usr": "s:12sensors_plus19MotionStreamHandlerP",
+            "mangledName": "$s12sensors_plus19MotionStreamHandlerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FPPUserAccelStreamHandlerPlus",
+        "printedName": "FPPUserAccelStreamHandlerPlus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "samplingPeriod",
+            "printedName": "samplingPeriod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12sensors_plus29FPPUserAccelStreamHandlerPlusC14samplingPeriodSivp",
+            "mangledName": "$s12sensors_plus29FPPUserAccelStreamHandlerPlusC14samplingPeriodSivp",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus29FPPUserAccelStreamHandlerPlusC14samplingPeriodSivg",
+                "mangledName": "$s12sensors_plus29FPPUserAccelStreamHandlerPlusC14samplingPeriodSivg",
+                "moduleName": "sensors_plus",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus29FPPUserAccelStreamHandlerPlusC14samplingPeriodSivs",
+                "mangledName": "$s12sensors_plus29FPPUserAccelStreamHandlerPlusC14samplingPeriodSivs",
+                "moduleName": "sensors_plus",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus29FPPUserAccelStreamHandlerPlusC14samplingPeriodSivM",
+                "mangledName": "$s12sensors_plus29FPPUserAccelStreamHandlerPlusC14samplingPeriodSivM",
+                "moduleName": "sensors_plus",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onListen",
+            "printedName": "onListen(withArguments:eventSink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPUserAccelStreamHandlerPlus(im)onListenWithArguments:eventSink:",
+            "mangledName": "$s12sensors_plus29FPPUserAccelStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "objc_name": "onListenWithArguments:eventSink:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancel",
+            "printedName": "onCancel(withArguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPUserAccelStreamHandlerPlus(im)onCancelWithArguments:",
+            "mangledName": "$s12sensors_plus29FPPUserAccelStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "objc_name": "onCancelWithArguments:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dealloc",
+            "printedName": "dealloc()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12sensors_plus29FPPUserAccelStreamHandlerPlusC7deallocyyF",
+            "mangledName": "$s12sensors_plus29FPPUserAccelStreamHandlerPlusC7deallocyyF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FPPUserAccelStreamHandlerPlus",
+                "printedName": "sensors_plus.FPPUserAccelStreamHandlerPlus",
+                "usr": "c:@M@sensors_plus@objc(cs)FPPUserAccelStreamHandlerPlus"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPUserAccelStreamHandlerPlus(im)init",
+            "mangledName": "$s12sensors_plus29FPPUserAccelStreamHandlerPlusCACycfc",
+            "moduleName": "sensors_plus",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@sensors_plus@objc(cs)FPPUserAccelStreamHandlerPlus",
+        "mangledName": "$s12sensors_plus29FPPUserAccelStreamHandlerPlusC",
+        "moduleName": "sensors_plus",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MotionStreamHandler",
+            "printedName": "MotionStreamHandler",
+            "usr": "s:12sensors_plus19MotionStreamHandlerP",
+            "mangledName": "$s12sensors_plus19MotionStreamHandlerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FPPGyroscopeStreamHandlerPlus",
+        "printedName": "FPPGyroscopeStreamHandlerPlus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "samplingPeriod",
+            "printedName": "samplingPeriod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12sensors_plus29FPPGyroscopeStreamHandlerPlusC14samplingPeriodSivp",
+            "mangledName": "$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC14samplingPeriodSivp",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus29FPPGyroscopeStreamHandlerPlusC14samplingPeriodSivg",
+                "mangledName": "$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC14samplingPeriodSivg",
+                "moduleName": "sensors_plus",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus29FPPGyroscopeStreamHandlerPlusC14samplingPeriodSivs",
+                "mangledName": "$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC14samplingPeriodSivs",
+                "moduleName": "sensors_plus",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus29FPPGyroscopeStreamHandlerPlusC14samplingPeriodSivM",
+                "mangledName": "$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC14samplingPeriodSivM",
+                "moduleName": "sensors_plus",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onListen",
+            "printedName": "onListen(withArguments:eventSink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPGyroscopeStreamHandlerPlus(im)onListenWithArguments:eventSink:",
+            "mangledName": "$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "objc_name": "onListenWithArguments:eventSink:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancel",
+            "printedName": "onCancel(withArguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPGyroscopeStreamHandlerPlus(im)onCancelWithArguments:",
+            "mangledName": "$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "objc_name": "onCancelWithArguments:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dealloc",
+            "printedName": "dealloc()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12sensors_plus29FPPGyroscopeStreamHandlerPlusC7deallocyyF",
+            "mangledName": "$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC7deallocyyF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FPPGyroscopeStreamHandlerPlus",
+                "printedName": "sensors_plus.FPPGyroscopeStreamHandlerPlus",
+                "usr": "c:@M@sensors_plus@objc(cs)FPPGyroscopeStreamHandlerPlus"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPGyroscopeStreamHandlerPlus(im)init",
+            "mangledName": "$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCACycfc",
+            "moduleName": "sensors_plus",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@sensors_plus@objc(cs)FPPGyroscopeStreamHandlerPlus",
+        "mangledName": "$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC",
+        "moduleName": "sensors_plus",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MotionStreamHandler",
+            "printedName": "MotionStreamHandler",
+            "usr": "s:12sensors_plus19MotionStreamHandlerP",
+            "mangledName": "$s12sensors_plus19MotionStreamHandlerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FPPMagnetometerStreamHandlerPlus",
+        "printedName": "FPPMagnetometerStreamHandlerPlus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "samplingPeriod",
+            "printedName": "samplingPeriod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12sensors_plus32FPPMagnetometerStreamHandlerPlusC14samplingPeriodSivp",
+            "mangledName": "$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC14samplingPeriodSivp",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus32FPPMagnetometerStreamHandlerPlusC14samplingPeriodSivg",
+                "mangledName": "$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC14samplingPeriodSivg",
+                "moduleName": "sensors_plus",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus32FPPMagnetometerStreamHandlerPlusC14samplingPeriodSivs",
+                "mangledName": "$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC14samplingPeriodSivs",
+                "moduleName": "sensors_plus",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12sensors_plus32FPPMagnetometerStreamHandlerPlusC14samplingPeriodSivM",
+                "mangledName": "$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC14samplingPeriodSivM",
+                "moduleName": "sensors_plus",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onListen",
+            "printedName": "onListen(withArguments:eventSink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPMagnetometerStreamHandlerPlus(im)onListenWithArguments:eventSink:",
+            "mangledName": "$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "objc_name": "onListenWithArguments:eventSink:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancel",
+            "printedName": "onCancel(withArguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPMagnetometerStreamHandlerPlus(im)onCancelWithArguments:",
+            "mangledName": "$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "objc_name": "onCancelWithArguments:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dealloc",
+            "printedName": "dealloc()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12sensors_plus32FPPMagnetometerStreamHandlerPlusC7deallocyyF",
+            "mangledName": "$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC7deallocyyF",
+            "moduleName": "sensors_plus",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FPPMagnetometerStreamHandlerPlus",
+                "printedName": "sensors_plus.FPPMagnetometerStreamHandlerPlus",
+                "usr": "c:@M@sensors_plus@objc(cs)FPPMagnetometerStreamHandlerPlus"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@sensors_plus@objc(cs)FPPMagnetometerStreamHandlerPlus(im)init",
+            "mangledName": "$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCACycfc",
+            "moduleName": "sensors_plus",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@sensors_plus@objc(cs)FPPMagnetometerStreamHandlerPlus",
+        "mangledName": "$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC",
+        "moduleName": "sensors_plus",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MotionStreamHandler",
+            "printedName": "MotionStreamHandler",
+            "usr": "s:12sensors_plus19MotionStreamHandlerP",
+            "mangledName": "$s12sensors_plus19MotionStreamHandlerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/yudhapratamaputra\/.pub-cache\/hosted\/pub.dev\/sensors_plus-4.0.2\/ios\/Classes\/FPPSensorsPlusPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 234,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yudhapratamaputra\/.pub-cache\/hosted\/pub.dev\/sensors_plus-4.0.2\/ios\/Classes\/FPPSensorsPlusPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 291,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yudhapratamaputra\/.pub-cache\/hosted\/pub.dev\/sensors_plus-4.0.2\/ios\/Classes\/FPPSensorsPlusPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yudhapratamaputra\/.pub-cache\/hosted\/pub.dev\/sensors_plus-4.0.2\/ios\/Classes\/FPPStreamHandlerPlus.swift",
+      "kind": "FloatLiteral",
+      "offset": 245,
+      "length": 4,
+      "value": "9.81"
+    },
+    {
+      "filePath": "\/Users\/yudhapratamaputra\/.pub-cache\/hosted\/pub.dev\/sensors_plus-4.0.2\/ios\/Classes\/FPPStreamHandlerPlus.swift",
+      "kind": "FloatLiteral",
+      "offset": 1426,
+      "length": 8,
+      "value": "0.000001"
+    },
+    {
+      "filePath": "\/Users\/yudhapratamaputra\/.pub-cache\/hosted\/pub.dev\/sensors_plus-4.0.2\/ios\/Classes\/FPPStreamHandlerPlus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1285,
+      "length": 6,
+      "value": "200000"
+    },
+    {
+      "filePath": "\/Users\/yudhapratamaputra\/.pub-cache\/hosted\/pub.dev\/sensors_plus-4.0.2\/ios\/Classes\/FPPStreamHandlerPlus.swift",
+      "kind": "FloatLiteral",
+      "offset": 2900,
+      "length": 8,
+      "value": "0.000001"
+    },
+    {
+      "filePath": "\/Users\/yudhapratamaputra\/.pub-cache\/hosted\/pub.dev\/sensors_plus-4.0.2\/ios\/Classes\/FPPStreamHandlerPlus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2760,
+      "length": 6,
+      "value": "200000"
+    },
+    {
+      "filePath": "\/Users\/yudhapratamaputra\/.pub-cache\/hosted\/pub.dev\/sensors_plus-4.0.2\/ios\/Classes\/FPPStreamHandlerPlus.swift",
+      "kind": "FloatLiteral",
+      "offset": 4368,
+      "length": 8,
+      "value": "0.000001"
+    },
+    {
+      "filePath": "\/Users\/yudhapratamaputra\/.pub-cache\/hosted\/pub.dev\/sensors_plus-4.0.2\/ios\/Classes\/FPPStreamHandlerPlus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4236,
+      "length": 6,
+      "value": "200000"
+    },
+    {
+      "filePath": "\/Users\/yudhapratamaputra\/.pub-cache\/hosted\/pub.dev\/sensors_plus-4.0.2\/ios\/Classes\/FPPStreamHandlerPlus.swift",
+      "kind": "FloatLiteral",
+      "offset": 5598,
+      "length": 8,
+      "value": "0.000001"
+    },
+    {
+      "filePath": "\/Users\/yudhapratamaputra\/.pub-cache\/hosted\/pub.dev\/sensors_plus-4.0.2\/ios\/Classes\/FPPStreamHandlerPlus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5458,
+      "length": 6,
+      "value": "200000"
+    }
+  ]
+}
